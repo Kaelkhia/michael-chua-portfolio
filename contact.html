@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Michael Joshua C. Chua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MJ Chua</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-header">
+            <p class="welcome">GET IN TOUCH</p>
+            <h1>Contact <span>Me</span></h1>
+            <p>
+                Have a question or want to connect? Send me a message.
+            </p>
+        </section>
+
+        <section class="contact-section">
+
+            <div class="contact-info">
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    Feel free to reach out through the contact form.
+                    I would be happy to connect with fellow students,
+                    developers, organizations, and technology enthusiasts.
+                </p>
+
+                <div class="contact-item">
+                    <strong>🎓 Program</strong>
+                    <p>Bachelor of Science in Computer Science</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>🏫 School</strong>
+                    <p>Systems Plus College Foundation</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>👨‍💼 Position</strong>
+                    <p>Vice President for External Affairs</p>
+                </div>
+
+            </div>
+
+            <form id="contactForm" class="contact-form">
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="subject">Subject</label>
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Michael Joshua C. Chua. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
